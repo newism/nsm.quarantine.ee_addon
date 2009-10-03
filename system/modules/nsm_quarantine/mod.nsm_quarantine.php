@@ -177,8 +177,17 @@ class Nsm_quarantine extends Morphine_Addon_Module{
 				$settings[$key] = $this->fetch_form_param($key);
 		}
 
-		// now are we working with an entry or a comment
-		$quarantinables = ($this->quarantinable_type == "entry") ? Nsm_quarantine_ext::find_flagged_entries() : Nsm_quarantine_ext::find_flagged_comments();
+		if(defined("BASE") === FALSE)
+		{
+			$s = ($PREFS->ini('admin_session_type') != 'c') ? $SESS->userdata('session_id') : 0;
+			define('BASE', SELF.'?S='.$s);
+			define('AMP', "&amp;");
+		}
+
+		if ( ! class_exists('Nsm_quarantine_CP')) require PATH_MOD.'nsm_quarantine/mcp.nsm_quarantine'.EXT;
+		$Nsm_quarantine_cp = new Nsm_quarantine_cp(FALSE);
+
+		$quarantinables = ($this->quarantinable_type == "entry") ? $Nsm_quarantine_cp->find_flagged_entries($this->quarantinable_id) : $Nsm_quarantine_cp->find_flagged_comments($this->quarantinable_id);
 		$this->entry_data = $quarantinables[0];
 		$this->entry_data['quarantinable_type'] = $this->quarantinable_type; 
 

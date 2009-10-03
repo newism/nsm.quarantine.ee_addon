@@ -5,7 +5,7 @@
 			array(
 				'action'	=> "C=modules".AMP."M=Nsm_quarantine".AMP."P=delete_flag_confirmation",
 				'method'	=> 'post',
-				'id' 		=> 'comment-flags'
+				'id' 		=> 'comment-flags',
 				'name'		=> 'comment_flags'
 			),
 			array(
