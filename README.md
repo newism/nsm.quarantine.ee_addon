@@ -1,7 +1,7 @@
 NSM Quarantine - Community powered, peer review comment and weblog entry monitoring system
 ==========================================================================================
 
-**This ExpressionEngine addon requires Morphine (the painless ExpressionEngine framework). Grab the latest version of Morphine from: http://github.com/newism/nsm.morphine.ee_addon and follow the readme instructions to install.**
+**This ExpressionEngine addon requires Morphine (the painless ExpressionEngine framework). Grab the latest version of Morphine from [http://github.com/newism/nsm.morphine.ee_addon](http://github.com/newism/nsm.morphine.ee_addon) and follow the readme instructions to install.**
 
 **This addon is for testing purposes only and is considered a public beta**
 
@@ -22,7 +22,7 @@ Requirements
 Installation
 ------------
 
-* Install and activate Morphine (the painless ExpressionEngine framework) available from: http://github.com/newism/nsm.morphine.ee_addon
+* Install and activate Morphine (the painless ExpressionEngine framework) available from: [http://github.com/newism/nsm.morphine.ee_addon](http://github.com/newism/nsm.morphine.ee_addon)
 * Copy all the downloaded folders into your EE install. Note: you may need to change the <code>system</code> folder to match your EE installation
 * Activate the NSM Quarantine extension.
 
@@ -33,13 +33,13 @@ Example templates are provided in <code>/themes/site\_themes/default/nsm\_quaran
 
 * Create a new template group called <code>nsm_quarantine</code>
 * Create the following templates and save them as files:
-** .head
-** .foot
-** \_form_quarantine
-** entry
-** index
+	* .head
+	* .foot
+	* \_form_quarantine
+	* entry
+	* index
 * Copy the included templates into the <code>nsm_quarantine</code> directory.
 * Set the <code>{assign_variable:this_index_weblog="....."}</code> variable to use an existing weblog.
-* visit http://yoursite.com/index.php?nsm_quarantine
+* Visit <code>http://yoursite.com/index.php?nsm_quarantine</code>
 
 More template docs coming soon.
