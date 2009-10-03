@@ -1,0 +1,74 @@
+/** ------------------------------
+	MENUS
+------------------------------ **/
+.menu, .index{margin:0; padding:0;}
+	.menu li, .index li{list-style-type:none; margin:0; position:relative;}
+		.menu li a{display:block; text-decoration:none;}
+
+.hlist{}
+	.hlist li{float:left; display:inline;}
+		.hlist li a{}
+
+.index{}
+	.index p{margin-top:0;}
+	.index a{}
+
+/* Main Nav =#nav_00 */
+#nav_00{font-size:11px; font-weight:bold; position:absolute; top:14px; right:0;}
+	#nav_00 a {padding:0 10px; border-left:1px solid #666;}
+	#nav_00 li:first-child a{border-left:0;}
+	#nav_00 li.active a{color: #0094ff;}
+
+#content{padding:14px 0 30px 0; position:relative; margin:0 30px;}
+	#content .copy{margin-top:18px; position:relative;}
+	
+.msg-box{border-width:1px 0; border-style:solid; font-weight: bold; margin:18px 0; padding:0;}
+	.msg-box ul{padding:0; margin:9px 9px;}
+		.msg-box li{list-style-type:none; line-height:18px; margin:0; padding:0;}
+
+.success-box{background:#FCFCDE; border-color:#DBDB8E;  color:#009933;}
+.error-box{background:#f4e5e5; border-color:#980001; color:#980001;}
+	.error-box li, .error-box p{color:#980001; font-weight:normal;}
+
+.copy .tableBorder{margin-bottom:18px;}
+.copy p {font-size:12px; margin:18px 0;}
+
+tbody{font-size: 11px;}
+table.sort tr.odd td{background: #EEF4F9;}
+table.sort tr.quarantined td{background: #efdee2!important; border-bottom-color: #d6b0b8; border-left-color: #dcb9c1;}
+table.sort tr.selected td{background: #fcfcde!important; border-bottom-color: #d6d4bb; border-left-color: #e2e0c6;}
+
+
+table.sort th{ line-height:26px;  padding-left:6px; text-align:left;}
+table.sort th span{background:url('../images/unsorted.gif') no-repeat; background-position:center right; display:block; margin-bottom:1px; padding-right:20px;}
+table.sort th.header{cursor:pointer; cursor:hand;}
+table.sort th.headerSortUp span{ background-color:#C3D5DF; background-image: url('../images/asc.gif'); }
+table.sort th.headerSortDown span{ background-color:#C3D5DF; background-image: url('../images/desc.gif'); }
+
+table.sort .id{width:30px;}
+table.sort .date{text-align:right; width:125px;}
+table.sort .stats{width:40px;}
+table.sort .ip{ text-align:right; width:75px;}
+table.sort .toggle{padding:0 6px; text-align:center; width:20px;}
+table.sort .toggle input{margin:0}
+table.sort .percentage{text-align:right; width:50px;}
+table.sort .vote{text-align:right; width:70px;}
+table.sort .flags{text-align:right; width:50px;}
+table.sort .qua_count{text-align:right; width:70px;}
+table.sort .is_qua{text-align:right; width:70px;}
+table.sort .status{width:70px;}
+
+table.sort th span,
+table.sort td {padding-left:6px;}
+table.sort tbody td{border-left:1px dotted #ddd;}
+table.sort thead th{border-left:1px dotted #768E9D; padding:0;}
+
+table.sort tbody td:first-child,
+table.sort thead th:first-child{border-left:none;}
+
+table.sort tfoot td{border-top:1px solid #CAD0D5; margin-top:1px;}
+table.sort tfoot strong{font-size:13px; color:#556E7F;}
+
+#publishdropmenu{z-index: 10;}
+
+.success strong{color:#009933; font-size:1em;}
