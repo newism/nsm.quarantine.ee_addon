@@ -11,6 +11,17 @@ Weblog comments and entires can be flagged by users as innapropriate. Once a pre
 
 Quarantined comments and entries are monitored through a powerful administration panel. Flagged and quarantined comments and entries can be re-openned, edited or deleted by the site administrator.
 
+Screenshots
+-----------
+
+[![](http://s3.amazonaws.com/ember/PPUN07mh0G0X1llY9UM1SjgXMA3Ey7db_s.jpg "Dashboard")](http://emberapp.com/leevigraham/images/dashboard-nsm-quarantine-1-0-0-ee-168-sandbox/)
+[![](http://s3.amazonaws.com/ember/oDENV7R69FcDFupo2u8vJEFyTiCZLcJm_s.jpg "Flagged entries")](http://emberapp.com/leevigraham/images/flagged-entries-nsm-quarantine-1-0-0-ee-168-s/)
+[![](http://s3.amazonaws.com/ember/WTptI1hxzfahr3ppD07vFpDMT7BJFWhx_s.jpg "Entry flags")](http://emberapp.com/leevigraham/images/entry-flags-nsm-quarantine-1-0-0-ee-168-sandb/)
+[![](http://s3.amazonaws.com/ember/JqywtpSoTvi0VAmIA13rI4L8gfoybbHC_s.jpg "Flagged comments")](http://emberapp.com/leevigraham/images/flagged-comments-nsm-quarantine-1-0-0-ee-168-/)
+[![](http://s3.amazonaws.com/ember/RTHG3oc8HR4eMHBIfpOlEXZuoWim6iCi_s.jpg "Comment flags")](http://emberapp.com/leevigraham/images/comment-flags-nsm-quarantine-1-0-0-ee-168-san/)
+[![](http://s3.amazonaws.com/ember/GeSv9DFrPmdNUzQLdXExAnWT9UKeHIwp_s.jpg "Extension settings")](http://emberapp.com/leevigraham/images/nsm-quarantine-1-0-0-extension-settings-ee-16-1/)
+[![](http://s3.amazonaws.com/ember/p0meC8TQEGc8md7Rd92d5qb0TVd1uBwT_s.jpg "Flagging content")](http://emberapp.com/leevigraham/images/entry-details-nsm-quarantineentry-nsm-quarant/)
+
 Requirements
 ------------
 
@@ -43,3 +54,4 @@ Example templates are provided in <code>/themes/site\_themes/default/nsm\_quaran
 * Visit <code>http://yoursite.com/index.php?nsm_quarantine</code>
 
 More template docs coming soon.
+
